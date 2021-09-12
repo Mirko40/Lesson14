@@ -121,6 +121,58 @@ body {
     .about .about__text div {
       padding-top: 10px; }
 
+.services {
+  width: 1500px;
+  height: 790px;
+  margin: auto;
+  background-color: #70BFFF;
+  background-image: url("../Foto/img_tomat.png");
+  background-repeat: no-repeat;
+  background-position: 873px 100px;
+  display: flex;
+  justify-content: center; }
+  .services .left__icons {
+    width: 400px;
+    height: 460px;
+    margin-left: 120px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-content: space-between; }
+    .services .left__icons div {
+      width: 400px;
+      height: 100px;
+      box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.4);
+      background-color: #FFFFFF;
+      font-size: 20px;
+      line-height: 27px;
+      color: #262626;
+      font-weight: 700;
+      font-family: "Raleway", sans-serif;
+      display: flex;
+      align-items: center;
+      align-self: center;
+      justify-content: center;
+      text-align: center; }
+      .services .left__icons div div {
+        width: 300px;
+        border-right: 1px solid #9d9d9d; }
+      .services .left__icons div img {
+        margin: auto; }
+  .services .right__head {
+    width: 600px;
+    height: 90px;
+    font-size: 90px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    margin-left: 110px;
+    margin-top: 260px;
+    transform: translate(0, 50%); }
+
 .blog__container {
   padding: 0;
   background: #b07cf7;
