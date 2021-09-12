@@ -1,5 +1,8 @@
-@import "_about";
-@import "test";
-div {
-    color: red;
+
+body {
+    background: #252525;
 }
+@import "header";
+@import "about";
+@import "blog";
+@import "contact";

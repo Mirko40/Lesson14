@@ -1,3 +1,37 @@
+$font-about:"Raleway", sans-serif;
 .about {
-    color: blue;
+    width: 1500px;
+    height: 700px;
+    margin: auto;
+    background-color: #00bfbf;
+    background-image: url("../Foto/img2.png");
+    background-repeat: no-repeat;
+    background-position: 170px 80px;
+    display: flex;
+    flex-direction: column;
+  
+  .about__head {
+    font-size: 90px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: $font-about;
+    margin-top: 180px;
+    margin-left: 870px;
+  }
+  .about__text {
+    width: 480px;
+    height: 190px;
+    font-size: 17px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: $font-about;
+    margin-top: 35px;
+    margin-left: 870px;
+  
+  div {
+    padding-top: 10px;
+  }
+  }
 }
