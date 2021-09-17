@@ -49,7 +49,7 @@
         box-sizing: border-box;
         width: 210px;
         height: 1px; 
-        border: 1px solid #ffcc00; 
+        border-top: 2px solid #ffcc00; 
     }
 }
 
@@ -57,19 +57,31 @@
         width: 1120px;
         height: 560px;
         margin-top: 38px;
-        border: 2px solid red;
+        // border: 2px solid red;
         display: flex;
     align-items: center;
     align-self: center;
-    justify-content:center;
-        .middle--line {
-            box-sizing: border-box;
-            width: 1px;
-        height: 560px;
-        border: 1px solid #ffcc00;
-        }
-}
-.image-wrapper {
+   
+
+    .middle--left  { 
+        width: 560px;
+        height: 560px;  
+        border-right: 1px solid #ffcc00;
+        display: flex;
+    align-items: center;
+    align-self: center;
+
+    
+    .arrow--left {
+        width: 18px;
+        height: 18px;
+        border-top: 3px solid #ffcc00;;
+        border-right: 3px solid #ffcc00;;
+        transform: rotate(-135deg);
+        margin-right: 52px;
+    } 
+
+.image--left {
     position: relative;
     max-width: 405px;
     padding: 2px;
@@ -79,23 +91,23 @@
  .image-inner {
     position: relative;
  }
- .image-wrapper img {
+ .image--left img {
     display: block;
     width: 100%;
  }
- .image-wrapper:before, .image-wrapper:after, .image-inner:before, .image-inner:after {
+ .image--left:before, .image--left:after, .image-inner:before, .image-inner:after {
     content: "";
     position: absolute;
     width: 100px;
     height: 100px;
  }
- .image-wrapper:before {
+ .image--left:before {
     bottom: -15px;
     left:-15px;
     border-left: 2px solid #FFCC00;
     border-bottom: 2px solid #FFCC00;
  }
- .image-wrapper:after {
+ .image--left:after {
     right: -15px;
     top: -15px;
     border-right: 2px solid #FFCC00;
@@ -116,6 +128,13 @@
  .middle--text {
     width: 420px;
     height: 560px;
-    border: 1px solid red;
+    // border: 1px solid red;
  }
+}
+}
+.middle--right  { 
+    width: 560px;
+    height: 560px;  
+    border-left: 1px solid #ffcc00;
+}
 }

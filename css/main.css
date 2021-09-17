@@ -144,7 +144,6 @@ body {
     .services .left__icons div {
       width: 400px;
       height: 100px;
-      box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.4);
       background-color: #FFFFFF;
       font-size: 20px;
       line-height: 27px;
@@ -161,7 +160,9 @@ body {
         border-right: 1px solid #9d9d9d; }
       .services .left__icons div img {
         margin: auto; }
-  .services .right__head {
+    .services .left__icons .icon1:hover, .services .left__icons .icon2:hover, .services .left__icons .icon3:hover, .services .left__icons .icon4:hover {
+      box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.4); }
+  .services .right__text {
     width: 600px;
     height: 90px;
     font-size: 90px;
