@@ -6,7 +6,7 @@
     background-color: black;
 }
 .container {
-    width: 1920px;
+    width: 100vw;
     height: 1000px;
     background-color: #FFFFFF;
     margin: auto;
@@ -142,12 +142,13 @@
     justify-content: space-around;
 
     .right--text {
-        width: 416px;
-    height: 395px;
+        width: 420px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-self: center;
+    // border: 2px solid red; 
 
     .text--head {
         font-size: 36px;
@@ -165,30 +166,49 @@ text-align: center;
         margin-top: 32px;  
     }
     .text--function {
+        border: 2px solid red; 
         font-size: 24px;
-line-height: 36px;
+
 color: #666666;
 font-weight: 400;
 font-family: "Raleway";
 text-align: center;
 margin-top: 34px;
     }
-    .text--icons{
-        width: 136px;
-        height: 35px;
+    .text--icons {
+        width: 250px;
+        height: 60px;
         border: 2px solid red;  
-        margin-top: 28px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-self: center;
+
+        a {
+            width: 50px;
+            padding: 15px;
+            border-radius: 50%;
+        color: #CCCCCC;
+        background-color: #FFFFFF;
+border: 2px solid #CCCCCC;
+ font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+
+        }
     }
     .text--main {
         width: 420px;
-        height: 110px;
-        margin-top: 31px;
+        height: 120px;
+        margin-top: 35px;
         font-size: 14px;
 line-height: 24px;
 color: #333333;
 font-weight: 500;
 font-family: "Raleway";
 text-align: center;
+border: 2px solid red;  
     }
     .text--footerline {
         width: 50px;

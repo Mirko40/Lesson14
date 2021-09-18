@@ -2,7 +2,7 @@
   background-color: black; }
 
 .container {
-  width: 1920px;
+  width: 100vw;
   height: 1000px;
   background-color: #FFFFFF;
   margin: auto;
@@ -112,8 +112,8 @@
     align-self: center;
     justify-content: space-around; }
     .container .middle--right .right--text {
-      width: 416px;
-      height: 395px;
+      width: 420px;
+      height: 450px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -132,28 +132,43 @@
         border-top: 2px solid #ffcc00;
         margin-top: 32px; }
       .container .middle--right .right--text .text--function {
+        border: 2px solid red;
         font-size: 24px;
-        line-height: 36px;
         color: #666666;
         font-weight: 400;
         font-family: "Raleway";
         text-align: center;
         margin-top: 34px; }
       .container .middle--right .right--text .text--icons {
-        width: 136px;
-        height: 35px;
+        width: 250px;
+        height: 60px;
         border: 2px solid red;
-        margin-top: 28px; }
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-self: center; }
+        .container .middle--right .right--text .text--icons a {
+          width: 50px;
+          padding: 15px;
+          border-radius: 50%;
+          color: #CCCCCC;
+          background-color: #FFFFFF;
+          border: 2px solid #CCCCCC;
+          font-size: 20px;
+          text-align: center;
+          text-decoration: none; }
       .container .middle--right .right--text .text--main {
         width: 420px;
-        height: 110px;
-        margin-top: 31px;
+        height: 120px;
+        margin-top: 35px;
         font-size: 14px;
         line-height: 24px;
         color: #333333;
         font-weight: 500;
         font-family: "Raleway";
-        text-align: center; }
+        text-align: center;
+        border: 2px solid red; }
       .container .middle--right .right--text .text--footerline {
         width: 50px;
         height: 5px;
