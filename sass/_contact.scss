@@ -117,8 +117,8 @@ font-family: $font-contact;
 }
     .form--submit {
   background-color: #ff6033;
-  width: 265px;
-  height: 50px;
+  width: 200px;
+  height: 56px;
   margin-top: 40px;
   font-size: 20px;
   line-height: 25px;
@@ -127,12 +127,12 @@ font-family: $font-contact;
   font-family: $font-contact;
   text-align: center;
   cursor: pointer;
-  
+}
     
     .form--submit:hover {
         transform: scale(1.1);
-        transition: transform 0.5s;
-    }}
+        transition: transform 1s;
+    }
     .contact__footer {
         width: 1500px;
         height: 95px;
