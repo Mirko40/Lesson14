@@ -336,6 +336,36 @@ body {
       color: #262626;
       font-weight: 300;
       font-family: "Raleway", sans-serif; }
+    .subscribe .subscribe__container .subscribe--form {
+      margin-top: 30px; }
+    .subscribe .subscribe__container input[type=text] {
+      font-size: 15px;
+      line-height: 27px;
+      font-weight: 300;
+      font-family: "Raleway", sans-serif;
+      outline: none;
+      border: 1px solid #262626;
+      width: 565px;
+      height: 56px;
+      color: #262626; }
+    .subscribe .subscribe__container ::-webkit-input-placeholder {
+      color: #262626;
+      padding-left: 16px; }
+    .subscribe .subscribe__container .button--subscribe {
+      background-color: #96B92C;
+      width: 170px;
+      height: 56px;
+      font-size: 20px;
+      line-height: 27px;
+      color: #ffffff;
+      font-weight: 300;
+      font-family: "Raleway", sans-serif;
+      text-align: center;
+      cursor: pointer;
+      margin-left: 27px; }
+    .subscribe .subscribe__container .button--subscribe:hover {
+      transform: scale(1.1);
+      transition: transform 1s; }
 
 .blog {
   padding: 0;

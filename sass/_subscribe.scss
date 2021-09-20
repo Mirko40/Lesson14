@@ -42,4 +42,43 @@ color: #262626;
 font-weight: 300;
 font-family: $font-contact;
   }
+.subscribe--form {
+    margin-top: 30px;
+}
+input[type=text] {
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 300;
+    font-family: $font-contact;
+    outline: none; 
+    border: 1px solid #262626;
+    width: 565px;
+    height: 56px;
+    color: #262626;
+    
+
+    }
+    ::-webkit-input-placeholder {
+        color:#262626;
+        padding-left: 16px;
+    }
+
+  .button--subscribe {
+    background-color: #96B92C;
+    width: 170px;
+    height: 56px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: $font-contact;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 27px;
+    }
+      
+      .button--subscribe:hover {
+          transform: scale(1.1);
+          transition: transform 1s;
+      }
 }}
