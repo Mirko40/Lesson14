@@ -300,6 +300,43 @@ body {
       transform: scale(1.2);
       transition: transform 1s; }
 
+.subscribe {
+  background: #FFFFFF;
+  width: 1500px;
+  height: 500px;
+  background-image: url(../Foto2/Subscribe_img.png);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center; }
+  .subscribe .subscribe__container {
+    width: 1170px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: center;
+    justify-content: flex-start; }
+    .subscribe .subscribe__container .subscribe__head {
+      margin-top: 145px;
+      /* border: 2px solid red; */
+      font-size: 40px;
+      line-height: 27px;
+      color: #262626;
+      font-weight: 700;
+      font-family: "Raleway", sans-serif;
+      text-align: right; }
+    .subscribe .subscribe__container .subscribe__text {
+      margin-top: 35px;
+      width: 570px;
+      height: 50px;
+      font-size: 17px;
+      line-height: 27px;
+      color: #262626;
+      font-weight: 300;
+      font-family: "Raleway", sans-serif; }
+
 .blog {
   padding: 0;
   background: #b07cf7;
